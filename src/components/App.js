@@ -16,8 +16,6 @@ function Home() {
   );
 }
 
-{/* write an <About> component here */}
-
 function About() {
   return (
     <div id="about">
@@ -33,8 +31,6 @@ function App() {
       <NavBar />
       <Home />
       <About />
-      {/* add the <Home> component here */}
-      {/* add your <About> component here */}
     </div>
   );
 }
